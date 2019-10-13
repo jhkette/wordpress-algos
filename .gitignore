@@ -1,0 +1,18 @@
+node_modules/
+
+
+# ignore all files starting with . or ~
+.*
+~*
+
+
+# -------------------------
+# BEGIN Whitelisted Files
+# -------------------------
+
+# track these files, if they exist
+!.gitignore
+!.editorconfig
+!README.md
+!CHANGELOG.md
+!composer.json
