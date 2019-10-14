@@ -23,7 +23,7 @@
 
 <div class ='nav-container'>
 <div class ="header-space">
-	
+	<h1>Algos and Data Structures </h1>
 </div>
 <nav class="navigation">
   <?php wp_nav_menu( array(
