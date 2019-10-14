@@ -17,3 +17,16 @@ p {
     color: #2e2e2e!important;
    
 }
+
+.rounded {
+    border-radius: .75rem;
+    background-image: url("http://wordpressalgo.test/wp-content/uploads/2019/10/don-1024x464.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 380px;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}

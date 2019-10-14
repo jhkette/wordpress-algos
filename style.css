@@ -42,7 +42,7 @@ body {
 .nav-container {
   width: 100%;
   background-color: #F3DF49;
-  padding: 1rem 5% 0 5%;
+  padding: 4rem 5% 4rem 5%;
   position: fixed;
   top: 0;
   left: 0;
@@ -105,5 +105,14 @@ p {
 .entry-title a {
   text-decoration: none;
   color: #2e2e2e !important; }
+
+.rounded {
+  border-radius: .75rem;
+  background-image: url("http://wordpressalgo.test/wp-content/uploads/2019/10/don-1024x464.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 380px;
+  width: 100%;
+  background-size: cover; }
 
 /*# sourceMappingURL=style.css.map */

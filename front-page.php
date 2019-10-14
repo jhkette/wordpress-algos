@@ -1,5 +1,6 @@
 <?php get_header('home');?>
    <main class="main-body">
+       <div class="rounded"> </div>
 	<?php
 		if ( have_posts() ) :
 
