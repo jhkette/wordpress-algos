@@ -874,17 +874,22 @@ object {
   margin: auto; }
 
 .navigation-menu li {
-  margin: 0 1.5rem;
+  margin: 0 1.5rem 0 0;
   font-size: 1.5rem;
   font-weight: 600; }
-  .navigation-menu li:first {
-    margin: 0; }
 
 .navigation-menu li a {
   color: #343434;
   text-decoration: none; }
   .navigation-menu li a:hover {
     border-bottom: 2px solid #343434; }
+
+header {
+  margin-top: 5rem; }
+
+main {
+  width: 80%;
+  margin: auto; }
 
 p {
   color: #1a1a1a !important; }

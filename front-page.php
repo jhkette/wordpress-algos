@@ -1,5 +1,5 @@
 <?php get_header('home');?>
-
+   <main>
 	<?php
 		if ( have_posts() ) :
 
@@ -31,6 +31,7 @@
 			get_template_part( 'template-parts/content', 'none' );
 
 		endif;
-		?>
+        ?>
+        </main>
 
 <?php get_footer();?>
