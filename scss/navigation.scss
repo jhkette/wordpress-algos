@@ -1,12 +1,22 @@
+
+
 .nav-container{
     width: 100%;
     background-color: white;
-    padding: 1rem 0;
+    padding: 1rem 0 0 0;
     position: fixed;
     top:0;
     left: 0;
-    border-bottom: 1px solid #ededed;
+   
+   
+    
+}
+.navigation {
+    border-bottom: 1px solid #d7d7d7;
     margin: 0;
+    background: #F3DF49;
+    padding: 1rem 0;
+    box-shadow: 2px 10px 10px rgba(52, 52, 52, 0.125);
 }
 
 .navigation-menu{
@@ -15,13 +25,21 @@
     flex-direction: row;
     list-style: none;
     margin: auto;
+    ul{
+        list-style-type: none;
+        margin: 0;
+    }
+}
+
+.header-space {
+    height: 5rem;
+    background: #fff;
 }
 
 .navigation-menu li {
-    margin: 0 1.5rem 0 0;
-    font-size: 1.5rem;
-    font-weight:600;
-   
+    margin: 0 2rem 0 0;
+    font-size: 1.9rem;
+    font-weight:400;
    
 }
 

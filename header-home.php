@@ -20,7 +20,11 @@
 </head>
 
 <body <?php body_class(); ?>>
+
 <div class ='nav-container'>
+<div class ="header-space">
+	
+</div>
 <nav class="navigation">
   <?php wp_nav_menu( array(
 		'theme_location' => 'menu-1',

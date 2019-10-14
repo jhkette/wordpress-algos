@@ -1,5 +1,5 @@
 <?php get_header('home');?>
-   <main>
+   <main class="main-body">
 	<?php
 		if ( have_posts() ) :
 
