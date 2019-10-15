@@ -2,6 +2,47 @@ header {
     margin-top: 5rem;
 }
 main {
-    width: 90%;
+    width: 100%;
     margin: auto;
+}
+
+
+p {
+    color: #2e2e2e!important;
+}
+
+
+
+.entry-title {
+    background-color: #f3de49;
+    padding: 0 1rem; 
+    display: inline-block;
+   
+}
+
+.entry-title a {
+    
+    text-decoration: none;
+    color: #2e2e2e!important;
+   
+}
+
+.rounded {
+    position: relative;
+    background-image: url("http://wordpressalgo.test/wp-content/uploads/2019/10/final.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    height: 360px;
+    width: 100%;
+    background-color: #f3de49;
+   
+  
+}
+
+.text{
+    position: absolute;
+    bottom: 12rem;
+    left: 6rem;
+    font-size: 6.5rem;
+    color: #343434;
 }

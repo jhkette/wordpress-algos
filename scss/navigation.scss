@@ -2,11 +2,16 @@
 .nav-container{
     width: 100%;
     background-color: #F3DF49;
-    padding: 4rem 5% 4rem 5%;
+    padding: 2rem 5% 2rem 5%;
     position: fixed;
     top:0;
     left: 0;
-    border-bottom: 1px solid #bbbbbb;
+    // border-bottom: 1px solid #bbbbbb;
+}
+
+.large {
+    display: block;
+    font-size: 6.5rem;
 }
 
 .navigation {
@@ -34,7 +39,7 @@
     display: inline-block;
     h1{
         color:#343434;
-        font-size: 3rem;
+        font-size: 3.45rem;
         font-weight: 300;
         padding: .5rem 0;
         
@@ -43,7 +48,7 @@
 
 .navigation-menu li {
     padding: 0 1rem 0 1rem;
-    font-size: 1.7rem;
+    font-size: 2.1rem;
     font-weight: 200; 
     border-right: 1px solid  #343434;
     &:last-of-type{
