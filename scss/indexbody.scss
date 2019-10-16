@@ -11,6 +11,10 @@ p {
     color: #2e2e2e!important;
 }
 
+article {
+    width: 90%;
+    margin: auto;
+}
 
 
 .entry-title {
@@ -28,21 +32,30 @@ p {
 }
 
 .rounded {
-    position: relative;
-    background-image: url("http://wordpressalgo.test/wp-content/uploads/2019/10/final.png");
+    
+    background-image: url("http://wordpressalgo.test/wp-content/uploads/2019/10/finalimage.png");
     background-repeat: no-repeat;
     background-position: right bottom;
-    height: 360px;
+    height: 420px;
     width: 100%;
     background-color: #f3de49;
    
   
 }
 
-.text{
-    position: absolute;
-    bottom: 12rem;
-    left: 6rem;
-    font-size: 6.5rem;
+.text {
+    width: 90%;
+     margin: auto;
+    font-size: 5rem;
     color: #343434;
+    position: relative;
+    h2{
+        position: absolute;
+        top: 12rem;
+        font-weight: 300;
+        width: 50%;
+        font-family: 'Cabin Sketch', cursive;
+
+    }
+    
 }

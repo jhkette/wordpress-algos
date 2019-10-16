@@ -15,6 +15,10 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<link rel="stylesheet" type="text/css"  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch&display=swap');
+</style> 
 
 	<?php wp_head(); ?>
 </head>
@@ -22,6 +26,8 @@
 <body <?php body_class(); ?>>
 
 <div class ='nav-container'>
+	<header class="header-container">
+	<div>
 <div class ="header-space">
 	<h1><span class="large">Algorithms</span> and Data Structures </h1>
 </div>
@@ -34,6 +40,9 @@
 			  ));
 			?>
 </nav>
+			</div>
+<?php get_search_form(); ?>
+			</header>
 			</div>
 
 

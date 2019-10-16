@@ -34,7 +34,7 @@ nav ul {
   list-style: none; }
 
 .main-body {
-  margin-top: 17.5rem; }
+  margin-top: 9.5rem; }
 
 body {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif; }
@@ -42,14 +42,24 @@ body {
 .nav-container {
   width: 100%;
   background-color: #F3DF49;
-  padding: 2rem 5% 2rem 5%;
   position: fixed;
   top: 0;
-  left: 0; }
+  left: 0;
+  padding: 2rem 0; }
+
+.header-container {
+  width: 90%;
+  margin: auto;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: first baseline;
+      align-items: first baseline; }
 
 .large {
   display: block;
-  font-size: 6.5rem; }
+  font-size: 3.75rem; }
 
 .navigation {
   margin: 0;
@@ -72,15 +82,16 @@ body {
   display: inline-block; }
   .header-space h1 {
     color: #343434;
-    font-size: 3.45rem;
+    font-size: 2rem;
     font-weight: 300;
-    padding: .5rem 0; }
+    padding: .5rem 0;
+    font-family: 'Cabin Sketch', cursive; }
 
 .navigation-menu li {
   padding: 0 1rem 0 1rem;
   font-size: 2.1rem;
-  font-weight: 200;
-  border-right: 1px solid  #343434; }
+  font-weight: 350;
+  border-right: 1px dotted rgba(52, 52, 52, 0.79); }
   .navigation-menu li:last-of-type {
     border: 0; }
 
@@ -89,6 +100,25 @@ body {
   text-decoration: none; }
   .navigation-menu li a:hover {
     border-bottom: 2px solid #343434; }
+
+.button-search {
+  width: 6rem;
+  height: 2.3rem;
+  border-radius: .25rem;
+  border: 0; }
+  .button-search:hover {
+    background: #343434;
+    color: white;
+    cursor: pointer; }
+  .button-search:active {
+    background: #343434;
+    color: white;
+    cursor: pointer; }
+
+#searchform {
+  display: inline-block;
+  position: relative;
+  bottom: .3rem; }
 
 header {
   margin-top: 5rem; }
@@ -100,6 +130,10 @@ main {
 p {
   color: #2e2e2e !important; }
 
+article {
+  width: 90%;
+  margin: auto; }
+
 .entry-title {
   background-color: #f3de49;
   padding: 0 1rem;
@@ -110,19 +144,24 @@ p {
   color: #2e2e2e !important; }
 
 .rounded {
-  position: relative;
-  background-image: url("http://wordpressalgo.test/wp-content/uploads/2019/10/final.png");
+  background-image: url("http://wordpressalgo.test/wp-content/uploads/2019/10/finalimage.png");
   background-repeat: no-repeat;
   background-position: right bottom;
-  height: 360px;
+  height: 420px;
   width: 100%;
   background-color: #f3de49; }
 
 .text {
-  position: absolute;
-  bottom: 12rem;
-  left: 6rem;
-  font-size: 6.5rem;
-  color: #343434; }
+  width: 90%;
+  margin: auto;
+  font-size: 5rem;
+  color: #343434;
+  position: relative; }
+  .text h2 {
+    position: absolute;
+    top: 12rem;
+    font-weight: 300;
+    width: 50%;
+    font-family: 'Cabin Sketch', cursive; }
 
 /*# sourceMappingURL=style.css.map */

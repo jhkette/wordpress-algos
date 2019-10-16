@@ -2,16 +2,25 @@
 .nav-container{
     width: 100%;
     background-color: #F3DF49;
-    padding: 2rem 5% 2rem 5%;
     position: fixed;
     top:0;
     left: 0;
-    // border-bottom: 1px solid #bbbbbb;
+    padding: 2rem 0;
+}
+
+.header-container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: first baseline;
+
 }
 
 .large {
     display: block;
-    font-size: 6.5rem;
+    font-size: 3.75rem;
+    
 }
 
 .navigation {
@@ -39,9 +48,10 @@
     display: inline-block;
     h1{
         color:#343434;
-        font-size: 3.45rem;
+        font-size: 2rem;
         font-weight: 300;
         padding: .5rem 0;
+        font-family: 'Cabin Sketch', cursive;
         
     }
 }
@@ -49,8 +59,8 @@
 .navigation-menu li {
     padding: 0 1rem 0 1rem;
     font-size: 2.1rem;
-    font-weight: 200; 
-    border-right: 1px solid  #343434;
+    font-weight: 350;
+    border-right: 1px dotted  rgba(52, 52, 52, 0.79);
     &:last-of-type{
         border: 0;
     }
@@ -64,4 +74,29 @@
         border-bottom: 2px solid #343434;
     }
 
+}
+
+.button-search {
+    width: 6rem;
+    height: 2.3rem;
+    border-radius: .25rem;
+    border: 0;
+    &:hover {
+        background: #343434;
+        color: white;
+        cursor: pointer;
+
+    }
+    &:active {
+        background: #343434;
+        color: white;
+        cursor: pointer;
+
+    }
+}
+
+#searchform {
+    display: inline-block;
+    position: relative;
+    bottom: .3rem;
 }

@@ -1,6 +1,6 @@
 <?php get_header('home');?>
    <main class="main-body">
-       <div class="rounded"><div class="text">This is some text</div> </div>
+       <div class="rounded"><div class="text"><h2>Data structures and algorithms in Javascript and Python</h2></div> </div>
 	<?php
 		if ( have_posts() ) :
 
