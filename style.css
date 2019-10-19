@@ -102,8 +102,8 @@ body {
     border-bottom: 2px solid #343434; }
 
 .button-search {
-  width: 6rem;
-  height: 2.3rem;
+  width: 8rem;
+  height: 3.25rem;
   border-radius: .25rem;
   border: 0; }
   .button-search:hover {
@@ -118,7 +118,13 @@ body {
 #searchform {
   display: inline-block;
   position: relative;
-  bottom: .3rem; }
+  bottom: 1rem;
+  height: 3rem; }
+
+.search-field {
+  border: 0;
+  height: 3rem;
+  padding-left: .5rem; }
 
 header {
   margin-top: 5rem; }
@@ -129,10 +135,6 @@ main {
 
 p {
   color: #2e2e2e !important; }
-
-article {
-  width: 90%;
-  margin: auto; }
 
 .entry-title {
   background-color: #f3de49;
@@ -146,15 +148,16 @@ article {
 .rounded {
   background-image: url("http://wordpressalgo.test/wp-content/uploads/2019/10/finalimage.png");
   background-repeat: no-repeat;
-  background-position: right bottom;
-  height: 420px;
+  background-position: right center;
+  height: 520px;
   width: 100%;
-  background-color: #f3de49; }
+  background-color: #f3de49;
+  box-shadow: 10px 10px 20px #aeaeae; }
 
 .text {
   width: 90%;
   margin: auto;
-  font-size: 5rem;
+  font-size: 5.6rem;
   color: #343434;
   position: relative; }
   .text h2 {
@@ -163,5 +166,37 @@ article {
     font-weight: 300;
     width: 50%;
     font-family: 'Cabin Sketch', cursive; }
+
+.container-intro {
+  width: 90%;
+  margin: auto;
+  padding: 5rem 0; }
+  .container-intro .intro {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 2.8rem; }
+
+.container-articles {
+  width: 90%;
+  margin: auto;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  border: 1px solid red;
+  margin: auto; }
+  .container-articles .home-article {
+    width: 45%;
+    border: 1px solid red;
+    height: 40rem; }
+  .container-articles .image1 {
+    background-image: url("http://wordpressalgo.test/wp-content/uploads/2019/10/jerome-4NACu8TxQzQ-unsplash-683x1024.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 30rem; }
+  .container-articles .image2 {
+    background-image: url("http://wordpressalgo.test/wp-content/uploads/2019/10/ira-mint-NAbyY7cZXIY-unsplash-2-1024x678.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 30rem; }
 
 /*# sourceMappingURL=style.css.map */
