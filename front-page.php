@@ -8,6 +8,11 @@ $intro = get_field('introtext')
        <div class="container-articles"><article class="home-article"><div class="image1"></div></article><article class="home-article">
        <div class="image2"></div>
        </article></div>
+
+
+       <div class="container-articles"><article class="home-article"><div class="image3"></div></article><article class="home-article">
+       
+       </article></div>
     </main>
 
 <?php get_footer();?>
