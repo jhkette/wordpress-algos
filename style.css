@@ -191,6 +191,12 @@ p {
     .container-articles .home-article p:first-of-type {
       font-size: 2.8rem;
       margin: 1.5rem 0; }
+    .container-articles .home-article p {
+      line-height: 1.2;
+      font-size: 20px;
+      color: rgba(0, 0, 0, 0.54);
+      fill: rgba(0, 0, 0, 0.54);
+      margin-top: 7px; }
   .container-articles .image1 {
     background-image: url("http://wordpressalgo.test/wp-content/uploads/2019/10/jerome-4NACu8TxQzQ-unsplash-683x1024.jpg");
     background-repeat: no-repeat;
