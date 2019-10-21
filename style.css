@@ -48,7 +48,7 @@ body {
   padding: 2rem 0; }
 
 .header-container {
-  width: 90%;
+  width: 80%;
   margin: auto;
   display: -ms-flexbox;
   display: flex;
@@ -119,11 +119,11 @@ body {
   display: inline-block;
   position: relative;
   bottom: 1rem;
-  height: 3rem; }
+  height: 2.5rem; }
 
 .search-field {
   border: 0;
-  height: 3rem;
+  height: 2.5rem;
   padding-left: .5rem; }
 
 header {
@@ -134,7 +134,7 @@ main {
   margin: auto; }
 
 p {
-  color: #2e2e2e !important;
+  color: #2e2e2e;
   font-size: 2rem;
   line-height: 1.2; }
 
@@ -157,20 +157,20 @@ p {
   box-shadow: 10px 10px 20px #aeaeae; }
 
 .text {
-  width: 90%;
+  width: 80%;
   margin: auto;
   font-size: 5rem;
   color: #343434;
   position: relative; }
   .text h2 {
     position: absolute;
-    top: 12rem;
+    top: 10rem;
     font-weight: 300;
     width: 50%;
     font-family: 'Cabin Sketch', cursive; }
 
 .container-intro {
-  width: 90%;
+  width: 80%;
   margin: auto;
   padding: 5rem 0; }
   .container-intro .intro {
@@ -178,7 +178,7 @@ p {
     font-size: 2.8rem; }
 
 .container-articles {
-  width: 90%;
+  width: 80%;
   margin: auto;
   display: -ms-flexbox;
   display: flex;
@@ -189,13 +189,14 @@ p {
     width: 45%;
     margin-bottom: 6rem; }
     .container-articles .home-article p:first-of-type {
-      font-size: 2.8rem;
-      margin: 1.5rem 0; }
+      font-size: 3rem;
+      margin: 1.8rem 0 1rem 0;
+      color: #2e2e2e; }
     .container-articles .home-article p {
       line-height: 1.2;
-      font-size: 20px;
-      color: rgba(0, 0, 0, 0.54);
-      fill: rgba(0, 0, 0, 0.54);
+      font-size: 2rem;
+      color: rgba(0, 0, 0, 0.605);
+      color: rgba(0, 0, 0, 0.605);
       margin-top: 7px; }
   .container-articles .image1 {
     background-image: url("http://wordpressalgo.test/wp-content/uploads/2019/10/jerome-4NACu8TxQzQ-unsplash-683x1024.jpg");
