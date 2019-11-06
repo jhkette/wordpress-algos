@@ -3,7 +3,12 @@ $intro = get_field('introtext')
 ?>
 <?php get_header('home');?>
    <main class="main-body">
-       <div class="rounded"><div class="text"><h2>Data structures and algorithms in Javascript and Python</h2></div> </div>
+       <div class="rounded">
+            <div class="text"><h2>Data structures and algorithms in Javascript and Python</h2>
+                <div class ="lead-image"></div>
+            </div>
+            
+       </div>
        <div class="container-intro"><p class="intro"><?php echo $intro; ?></p></div>
        <div class="container-articles"><article class="home-article"><div class="image1"></div>
        <p>observed that, if the sperm whale, once struck, blind rage,</p>

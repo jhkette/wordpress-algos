@@ -122,6 +122,8 @@ add_action( 'widgets_init', 'algos_widgets_init' );
 function algos_scripts() {
 	wp_enqueue_style( 'algos-style', get_stylesheet_uri() );
 
+	wp_enqueue_script( 'my-script', get_template_directory_uri() . '/js/script.js', array(), true );
+
 	wp_enqueue_script( 'algos-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'algos-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
