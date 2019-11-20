@@ -33,19 +33,17 @@ footer, header, hgroup, menu, nav, section {
 nav ul {
   list-style: none; }
 
-.main-body {
-  margin-top: 9.5rem; }
-
 body {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif; }
 
 .nav-container {
   width: 100%;
-  background-color: #F3DF49;
+  background-color: rgba(225, 77, 77, 0.839);
   position: fixed;
   top: 0;
   left: 0;
-  padding: 2rem 0; }
+  padding: 2rem 0;
+  border-bottom: 1px dashed #1a1a1a; }
 
 .header-container {
   width: 80%;
@@ -59,7 +57,7 @@ body {
 
 .large {
   display: block;
-  font-size: 4.75rem; }
+  font-size: 3.4rem; }
 
 .navigation {
   margin: 0;
@@ -82,14 +80,14 @@ body {
   display: inline-block; }
   .header-space h1 {
     color: #343434;
-    font-size: 2.62rem;
+    font-size: 1.88rem;
     font-weight: 300;
     padding: .5rem 0;
     font-family: 'Cabin Sketch', cursive; }
 
 .navigation-menu li {
   padding: 0 1rem 0 1rem;
-  font-size: 2.1rem;
+  font-size: 1.9rem;
   font-weight: 350;
   border-right: 1px dotted rgba(52, 52, 52, 0.79); }
   .navigation-menu li:last-of-type {
@@ -130,8 +128,10 @@ header {
   margin-top: 5rem; }
 
 main {
-  width: 100%;
-  margin: auto; }
+  width: 100%; }
+
+.main-body {
+  margin: 127px auto 0 auto; }
 
 p {
   color: #2e2e2e;
@@ -148,10 +148,10 @@ p {
   color: #2e2e2e !important; }
 
 .rounded {
-  height: 580px;
+  height: 575px;
   width: 100%;
-  background-color: #f3de49;
-  box-shadow: 10px 10px 20px #aeaeae; }
+  background-image: url("http://wordpressalgo.test/wp-content/uploads/2019/11/taylor-vick-M5tzZtFCOfs-unsplash.jpg");
+  background-repeat: no-repeat; }
 
 .lead-image {
   background-image: url("http://wordpressalgo.test/wp-content/uploads/2019/10/finalimage.png");
@@ -164,17 +164,21 @@ p {
   margin: auto;
   font-size: 6.2rem;
   color: #343434;
-  margin-top: 15rem;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: justify;
       justify-content: space-between;
-  padding-top: 9rem; }
+  padding-top: 9rem;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center; }
   .text h2 {
-    top: 16rem;
     font-weight: 300;
     width: 50%;
-    font-family: 'Cabin Sketch', cursive; }
+    font-family: 'Cabin Sketch', cursive;
+    margin-top: 4rem;
+    color: #cbcbcb; }
 
 .container-intro {
   width: 80%;
@@ -182,7 +186,9 @@ p {
   padding: 5rem 0; }
   .container-intro .intro {
     font-family: 'Cabin Sketch', cursive;
-    font-size: 2.8rem; }
+    font-size: 2.8rem;
+    border-top: 1px solid #cbcbcb;
+    padding-top: 4rem; }
 
 .container-articles {
   width: 80%;
@@ -200,7 +206,7 @@ p {
       margin: 2.4rem 0 1rem 0;
       color: #2e2e2e; }
     .container-articles .home-article p {
-      line-height: 1.2;
+      line-height: 1.25;
       font-size: 2.15rem;
       color: rgba(0, 0, 0, 0.605);
       color: rgba(0, 0, 0, 0.605);

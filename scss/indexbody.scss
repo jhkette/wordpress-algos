@@ -3,7 +3,11 @@ header {
 }
 main {
     width: 100%;
-    margin: auto;
+    
+}
+
+.main-body{
+    margin: 127px auto 0 auto;
 }
 
 
@@ -23,22 +27,16 @@ p {
 }
 
 .entry-title a {
-    
     text-decoration: none;
     color: #2e2e2e!important;
    
 }
 
 .rounded {
-    
-  
-    height: 580px;
+    height: 575px;
     width: 100%;
-    background-color: #f3de49;
-    box-shadow: 10px 10px 20px #aeaeae;
-    
-   
-  
+    background-image: url("http://wordpressalgo.test/wp-content/uploads/2019/11/taylor-vick-M5tzZtFCOfs-unsplash.jpg");
+    background-repeat: no-repeat;
 }
 
 .lead-image{
@@ -46,6 +44,7 @@ p {
     background-repeat: no-repeat;
     width: 450px;
     height: 251px;
+    
 
 }
 
@@ -54,16 +53,17 @@ p {
      margin: auto;
     font-size: 6.2rem;
     color: #343434;
-    margin-top: 15rem;
     display: flex;
     justify-content: space-between;
     padding-top: 9rem;
+    align-items: center;
+    align-content: center;
     h2{
-        
-        top: 16rem;
         font-weight: 300;
         width: 50%;
         font-family: 'Cabin Sketch', cursive;
+        margin-top: 4rem;
+        color: #cbcbcb;
 
     }
     
@@ -74,8 +74,12 @@ p {
     width: 80%;
     margin: auto;
     padding: 5rem 0;
+    
     .intro {font-family: 'Cabin Sketch', cursive;
-        font-size: 2.8rem;}
+        font-size: 2.8rem;
+        border-top: 1px solid #cbcbcb;
+        padding-top: 4rem;
+    }
 }
 
 .container-articles{
@@ -96,7 +100,7 @@ p {
         color: #2e2e2e;
     }
     p{
-        line-height: 1.2;
+        line-height: 1.25;
         font-size: 2.15rem;
         color: rgba(0, 0, 0, 0.605);
         color: rgba(0, 0, 0, 0.605);

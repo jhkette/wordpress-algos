@@ -5,7 +5,7 @@ $intro = get_field('introtext')
    <main class="main-body">
        <div class="rounded">
             <div class="text"><h2>Data structures and algorithms in Javascript and Python</h2>
-                <div class ="lead-image"></div>
+            
             </div>
             
        </div>

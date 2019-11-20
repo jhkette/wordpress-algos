@@ -1,11 +1,12 @@
 
 .nav-container{
     width: 100%;
-    background-color: #F3DF49;
+    background-color: rgba(225, 77, 77, 0.839);
     position: fixed;
     top:0;
     left: 0;
     padding: 2rem 0;
+    border-bottom: 1px dashed #1a1a1a;
 }
 
 .header-container{
@@ -19,7 +20,7 @@
 
 .large {
     display: block;
-    font-size: 4.75rem;
+    font-size: 3.4rem;
     
 }
 
@@ -48,7 +49,7 @@
     display: inline-block;
     h1{
         color:#343434;
-        font-size: 2.62rem;
+        font-size: 1.88rem;
         font-weight: 300;
         padding: .5rem 0;
         font-family: 'Cabin Sketch', cursive;
@@ -60,7 +61,7 @@
 
 .navigation-menu li {
     padding: 0 1rem 0 1rem;
-    font-size: 2.1rem;
+    font-size: 1.9rem;
     font-weight: 350;
     border-right: 1px dotted  rgba(52, 52, 52, 0.79);
     &:last-of-type{

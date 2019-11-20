@@ -17,7 +17,7 @@
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<link rel="stylesheet" type="text/css"  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<style>
-@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Cabin+Sketch&display=swap');
 </style> 
 
 	<?php wp_head(); ?>
